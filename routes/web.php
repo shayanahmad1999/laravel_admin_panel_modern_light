@@ -76,3 +76,7 @@ Route::get('/pricing-table', function () {
 Route::get('/basic-table', function () {
     return view('tables/basic');
 })->name('admin.basicTable');
+
+Route::get('/basic-data-table', function () {
+    return view('tables/basicData');
+})->name('admin.basicDataTable');

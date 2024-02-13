@@ -48,4 +48,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/forms/theme-checkbox-radio.css')}}">
     <link href="{{asset('assets/css/tables/table-basic.css')}}" rel="stylesheet" type="text/css" />
 
+    <link rel="stylesheet" type="text/css" href="{{asset('plugins/table/datatable/datatables.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('plugins/table/datatable/dt-global_style.css')}}">
+
 </head>
