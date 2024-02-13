@@ -110,7 +110,7 @@
                         <a href="{{route('admin.inputMask')}}"> Input Mask </a>
                     </li>
                     <li>
-                        <a href="form_select2.html"> Select2 </a>
+                        <a href="{{route('admin.select2')}}"> Select2 </a>
                     </li>
                     <li>
                         <a href="form_switches.html"> Switches </a>

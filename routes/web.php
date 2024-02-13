@@ -113,3 +113,6 @@ Route::get('input-mask-form', function () {
     return view('forms/inputMask');
 })->name('admin.inputMask');
 
+Route::get('select2-form', function () {
+    return view('forms/select2');
+})->name('admin.select2');

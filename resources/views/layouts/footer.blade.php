@@ -255,3 +255,6 @@
 
 <script src="{{asset('plugins/input-mask/jquery.inputmask.bundle.min.js')}}"></script>
 <script src="{{asset('plugins/input-mask/input-mask.js')}}"></script>
+
+<script src="{{asset('plugins/select2/select2.min.js')}}"></script>
+    <script src="{{asset('plugins/select2/custom-select2.js')}}"></script>
