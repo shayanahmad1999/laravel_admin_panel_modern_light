@@ -25,3 +25,11 @@
  <script src="{{asset('plugins/apex/apexcharts.min.js')}}"></script>
  <script src="{{asset('assets/js/dashboard/dash_2.js')}}"></script>
  <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+
+  <!--  BEGIN CUSTOM SCRIPTS FILE  -->
+
+  <script src="{{asset('plugins/dropify/dropify.min.js')}}"></script>
+  <script src="{{asset('plugins/blockui/jquery.blockUI.min.js')}}"></script>
+  <!-- <script src="plugins/tagInput/tags-input.js"></script> -->
+  <script src="{{asset('assets/js/users/account-settings.js')}}"></script>
+  <!--  END CUSTOM SCRIPTS FILE  -->

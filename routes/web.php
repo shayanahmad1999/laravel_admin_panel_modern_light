@@ -37,6 +37,14 @@ Route::get('/lock-screen', function () {
     return view('auth/lockScreen');
 })->name('admin.lockScreen');
 
+Route::get('/profile', function () {
+    return view('auth/profile');
+})->name('admin.profile');
+
+Route::get('/edit-profile', function () {
+    return view('auth/editProfile');
+})->name('admin.editProfile');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('admin.dashboard');
