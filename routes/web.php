@@ -105,3 +105,7 @@ Route::get('layouts-form', function () {
     return view('forms/layouts');
 })->name('admin.layouts');
 
+Route::get('validation-form', function () {
+    return view('forms/validation');
+})->name('admin.validation');
+

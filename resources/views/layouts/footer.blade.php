@@ -250,3 +250,5 @@
     } );
 </script>
 <!-- END PAGE LEVEL CUSTOM SCRIPTS -->
+
+<script src="{{asset('assets/js/forms/bootstrap_validation/bs_validation_script.js')}}"></script>
