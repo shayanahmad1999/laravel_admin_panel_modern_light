@@ -109,3 +109,7 @@ Route::get('validation-form', function () {
     return view('forms/validation');
 })->name('admin.validation');
 
+Route::get('input-mask-form', function () {
+    return view('forms/inputMask');
+})->name('admin.inputMask');
+

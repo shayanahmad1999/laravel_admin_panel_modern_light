@@ -252,3 +252,6 @@
 <!-- END PAGE LEVEL CUSTOM SCRIPTS -->
 
 <script src="{{asset('assets/js/forms/bootstrap_validation/bs_validation_script.js')}}"></script>
+
+<script src="{{asset('plugins/input-mask/jquery.inputmask.bundle.min.js')}}"></script>
+<script src="{{asset('plugins/input-mask/input-mask.js')}}"></script>

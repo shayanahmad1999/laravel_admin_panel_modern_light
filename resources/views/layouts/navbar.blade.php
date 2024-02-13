@@ -107,7 +107,7 @@
                         <a href="{{route('admin.validation')}}"> Validation </a>
                     </li>
                     <li>
-                        <a href="form_input_mask.html"> Input Mask </a>
+                        <a href="{{route('admin.inputMask')}}"> Input Mask </a>
                     </li>
                     <li>
                         <a href="form_select2.html"> Select2 </a>
