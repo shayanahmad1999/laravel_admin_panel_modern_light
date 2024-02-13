@@ -33,6 +33,10 @@ Route::get('/reset-password', function () {
     return view('auth/resetPassword');
 })->name('admin.resetPassword');
 
+Route::get('/lock-screen', function () {
+    return view('auth/lockScreen');
+})->name('admin.lockScreen');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('admin.dashboard');
