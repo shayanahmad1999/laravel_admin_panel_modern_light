@@ -44,6 +44,9 @@
                     <li>
                         <a href="{{route('admin.sweetAlert')}}"> Sweet Alerts </a>
                     </li>
+                    <li>
+                        <a href="{{route('admin.notification')}}"> Notification </a>
+                    </li>
                 </ul>
             </li>
 

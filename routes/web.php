@@ -64,3 +64,7 @@ Route::get('/carousal', function () {
 Route::get('/sweetAlert', function () {
     return view('components/sweetAlert');
 })->name('admin.sweetAlert');
+
+Route::get('/notification', function () {
+    return view('components/notification');
+})->name('admin.notification');

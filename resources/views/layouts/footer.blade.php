@@ -66,3 +66,23 @@
 
   <script src="{{asset('plugins/sweetalerts/sweetalert2.min.js')}}"></script>
   <script src="{{asset('plugins/sweetalerts/custom-sweetalert.js')}}"></script>
+
+  <script src="{{asset('plugins/notification/snackbar/snackbar.min.js')}}"></script>
+  <!-- END PAGE LEVEL PLUGINS -->
+
+  <!--  BEGIN CUSTOM SCRIPTS FILE  -->
+  <script src="{{asset('assets/js/components/notification/custom-snackbar.js')}}"></script>
+  <!--  END CUSTOM SCRIPTS FILE  -->
+
+  <script>
+      // Get the Toast button
+      var toastButton = document.getElementById("toast-btn");
+      // Get the Toast element
+      var toastElement = document.getElementsByClassName("toast")[0];
+
+      toastButton.onclick = function() {
+          $('.toast').toast('show');
+      }
+
+
+  </script>
