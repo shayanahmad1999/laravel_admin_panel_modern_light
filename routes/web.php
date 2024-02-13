@@ -84,3 +84,8 @@ Route::get('/basic-data-table', function () {
 Route::get('/custom-data-table', function () {
     return view('tables/customData');
 })->name('admin.customDataTable');
+
+Route::get('/range-search-data-table', function () {
+    return view('tables/rangeSearchData');
+})->name('admin.rangeSearchDataTable');
+

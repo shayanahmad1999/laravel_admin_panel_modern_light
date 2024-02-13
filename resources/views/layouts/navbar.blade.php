@@ -75,6 +75,9 @@
                                 <a href="{{route('admin.customDataTable')}}"> Custom </a>
                             </li>
                             <li>
+                                <a href="{{route('admin.rangeSearchDataTable')}}"> Range Search </a>
+                            </li>
+                            <li>
                                 <a href="table_dt_html5.html"> HTML5 Export </a>
                             </li>
                         </ul>
