@@ -42,4 +42,7 @@
 
     <link href="{{asset('plugins/notification/snackbar/snackbar.min.css')}}" rel="stylesheet" type="text/css" />
 
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/forms/switches.css')}}">
+    <link href="{{asset('plugins/pricing-table/css/component.css')}}" rel="stylesheet" type="text/css" />
+
 </head>

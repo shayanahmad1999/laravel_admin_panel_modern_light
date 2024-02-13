@@ -47,6 +47,9 @@
                     <li>
                         <a href="{{route('admin.notification')}}"> Notification </a>
                     </li>
+                    <li>
+                        <a href="{{route('admin.pricingTable')}}"> Pricing Table </a>
+                    </li>
                 </ul>
             </li>
 

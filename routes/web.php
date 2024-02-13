@@ -68,3 +68,7 @@ Route::get('/sweetAlert', function () {
 Route::get('/notification', function () {
     return view('components/notification');
 })->name('admin.notification');
+
+Route::get('/pricing-table', function () {
+    return view('components/pricingTable');
+})->name('admin.pricingTable');
