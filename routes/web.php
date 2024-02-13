@@ -93,3 +93,7 @@ Route::get('/HTML5-export-table', function () {
     return view('tables/html5ExportData');
 })->name('admin.html5ExportDataTable');
 
+Route::get('basic-form', function () {
+    return view('forms/basic');
+})->name('admin.basicForm');
+

@@ -95,7 +95,7 @@
                 </a>
                 <ul class="collapse submenu list-unstyled" id="forms"  data-parent="#topAccordion">
                     <li>
-                        <a href="form_bootstrap_basic.html"> Basic </a>
+                        <a href="{{route('admin.basicForm')}}"> Basic </a>
                     </li>
                     <li>
                         <a href="form_input_group_basic.html"> Input Group </a>
