@@ -89,3 +89,7 @@ Route::get('/range-search-data-table', function () {
     return view('tables/rangeSearchData');
 })->name('admin.rangeSearchDataTable');
 
+Route::get('/HTML5-export-table', function () {
+    return view('tables/html5ExportData');
+})->name('admin.html5ExportDataTable');
+
