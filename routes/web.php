@@ -52,3 +52,7 @@ Route::get('/dashboard', function () {
 Route::get('/modal', function () {
     return view('components/modal');
 })->name('admin.modal');
+
+Route::get('/card', function () {
+    return view('components/card');
+})->name('admin.card');

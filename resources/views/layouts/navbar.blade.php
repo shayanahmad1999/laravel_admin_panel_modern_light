@@ -36,7 +36,7 @@
                         <a href="{{route('admin.modal')}}"> Modals </a>
                     </li>                            
                     <li>
-                        <a href="component_cards.html"> Cards </a>
+                        <a href="{{route('admin.card')}}"> Cards </a>
                     </li>
                     <li>
                         <a href="component_bootstrap_carousel.html">Carousel</a>
