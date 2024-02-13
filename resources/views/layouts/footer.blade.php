@@ -18,6 +18,7 @@
          App.init();
      });
  </script>
+ <script src="{{asset('plugins/highlight/highlight.pack.js')}}"></script>
  <script src="{{asset('assets/js/custom.js')}}"></script>
  <!-- END GLOBAL MANDATORY SCRIPTS -->
 
@@ -33,3 +34,32 @@
   <!-- <script src="plugins/tagInput/tags-input.js"></script> -->
   <script src="{{asset('assets/js/users/account-settings.js')}}"></script>
   <!--  END CUSTOM SCRIPTS FILE  -->
+
+  <!--  BEGIN CUSTOM SCRIPT FILE  -->
+  <script src="{{asset('assets/js/scrollspyNav.js')}}"></script>
+  <script>
+      $('#yt-video-link').click(function () {
+          var src = 'https://www.youtube.com/embed/YE7VzlLtp-4';
+          $('#videoMedia1').modal('show');
+          $('<iframe>').attr({
+              'src': src,
+              'width': '560',
+              'height': '315',
+              'allow': 'encrypted-media'
+          }).css('border', '0').appendTo('#videoMedia1 .video-container');
+      });
+      $('#vimeo-video-link').click(function () {
+          var src = 'https://player.vimeo.com/video/1084537';
+          $('#videoMedia2').modal('show');
+          $('<iframe>').attr({
+              'src': src,
+              'width': '560',
+              'height': '315',
+              'allow': 'encrypted-media'
+          }).css('border', '0').appendTo('#videoMedia2 .video-container');
+      });
+      $('#videoMedia1 button, #videoMedia2 button').click(function () {
+          $('#videoMedia1 iframe, #videoMedia2 iframe').removeAttr('src');
+      });
+  </script>    
+  <!--  END CUSTOM SCRIPT FILE  -->

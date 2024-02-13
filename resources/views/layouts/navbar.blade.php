@@ -33,7 +33,7 @@
                 </a>
                 <ul class="collapse submenu list-unstyled" id="components" data-parent="#topAccordion">
                     <li>
-                        <a href="component_modal.html"> Modals </a>
+                        <a href="{{route('admin.modal')}}"> Modals </a>
                     </li>                            
                     <li>
                         <a href="component_cards.html"> Cards </a>
