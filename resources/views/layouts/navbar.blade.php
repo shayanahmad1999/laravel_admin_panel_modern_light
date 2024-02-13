@@ -128,7 +128,7 @@
                         <a href="{{route('admin.markDownEditor')}}"> Markdown Editor </a>
                     </li>
                     <li>
-                        <a href="form_clipboard.html"> Clipboard </a>
+                        <a href="{{route('admin.clipboard')}}"> Clipboard </a>
                     </li>
                     <li>
                         <a href="form_typeahead.html"> Typeahead </a>

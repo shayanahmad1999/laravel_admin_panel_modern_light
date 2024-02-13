@@ -136,3 +136,7 @@ Route::get('quill-editor-form', function () {
 Route::get('mark-down-editor-form', function () {
     return view('forms/markDownEditor');
 })->name('admin.markDownEditor');
+
+Route::get('clipboard-form', function () {
+    return view('forms/clipboard');
+})->name('admin.clipboard');

@@ -276,3 +276,6 @@
 
 <script src="{{asset('plugins/editors/markdown/simplemde.min.js')}}"></script>
 <script src="{{asset('plugins/editors/markdown/custom-markdown.js')}}"></script>
+
+<script src="{{asset('assets/js/clipboard/clipboard.min.js')}}"></script>
+<script src="{{asset('assets/js/forms/custom-clipboard.js')}}"></script>

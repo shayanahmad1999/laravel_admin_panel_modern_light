@@ -64,6 +64,8 @@
 
     <link rel="stylesheet" href="{{asset('plugins/editors/markdown/simplemde.min.css')}}">
 
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/forms/custom-clipboard.css')}}">
+
     <style>
         #formValidate .wizard > .content {min-height: 25em;}
         #example-vertical.wizard > .content {min-height: 24.5em;}
