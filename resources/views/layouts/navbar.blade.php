@@ -119,7 +119,7 @@
                         <a href="{{route('admin.wizards')}}"> Wizards </a>
                     </li>
                     <li>
-                        <a href="form_fileupload.html"> File Upload </a>
+                        <a href="{{route('admin.fileUpload')}}"> File Upload </a>
                     </li>
                     <li>
                         <a href="form_quill.html"> Quill Editor </a>

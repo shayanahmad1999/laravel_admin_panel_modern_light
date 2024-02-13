@@ -124,3 +124,7 @@ Route::get('switches-form', function () {
 Route::get('wizards-form', function () {
     return view('forms/wizards');
 })->name('admin.wizards');
+
+Route::get('file-uploads-form', function () {
+    return view('forms/fileUpload');
+})->name('admin.fileUpload');

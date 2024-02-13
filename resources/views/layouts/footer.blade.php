@@ -261,3 +261,12 @@
 
 <script src="{{asset('plugins/jquery-step/jquery.steps.min.js')}}"></script>
 <script src="{{asset('plugins/jquery-step/custom-jquery.steps.js')}}"></script>
+
+<script src="{{asset('plugins/file-upload/file-upload-with-preview.min.js')}}"></script>
+
+    <script>
+        //First upload
+        var firstUpload = new FileUploadWithPreview('myFirstImage')
+        //Second upload
+        var secondUpload = new FileUploadWithPreview('mySecondImage')
+    </script>
