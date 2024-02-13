@@ -120,3 +120,7 @@ Route::get('select2-form', function () {
 Route::get('switches-form', function () {
     return view('forms/switches');
 })->name('admin.switches');
+
+Route::get('wizards-form', function () {
+    return view('forms/wizards');
+})->name('admin.wizards');

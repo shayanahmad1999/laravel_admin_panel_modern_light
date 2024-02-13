@@ -56,4 +56,11 @@
 
     <link rel="stylesheet" type="text/css" href="{{asset('plugins/select2/select2.min.css')}}">
 
+    <link rel="stylesheet" type="text/css" href="{{asset('plugins/jquery-step/jquery.steps.css')}}">
+
+    <style>
+        #formValidate .wizard > .content {min-height: 25em;}
+        #example-vertical.wizard > .content {min-height: 24.5em;}
+    </style>
+
 </head>

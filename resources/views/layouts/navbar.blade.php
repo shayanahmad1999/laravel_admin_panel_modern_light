@@ -116,7 +116,7 @@
                         <a href="{{route('admin.switches')}}"> Switches </a>
                     </li>
                     <li>
-                        <a href="form_wizard.html"> Wizards </a>
+                        <a href="{{route('admin.wizards')}}"> Wizards </a>
                     </li>
                     <li>
                         <a href="form_fileupload.html"> File Upload </a>

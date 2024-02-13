@@ -257,4 +257,7 @@
 <script src="{{asset('plugins/input-mask/input-mask.js')}}"></script>
 
 <script src="{{asset('plugins/select2/select2.min.js')}}"></script>
-    <script src="{{asset('plugins/select2/custom-select2.js')}}"></script>
+<script src="{{asset('plugins/select2/custom-select2.js')}}"></script>
+
+<script src="{{asset('plugins/jquery-step/jquery.steps.min.js')}}"></script>
+<script src="{{asset('plugins/jquery-step/custom-jquery.steps.js')}}"></script>
