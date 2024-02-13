@@ -60,3 +60,7 @@ Route::get('/card', function () {
 Route::get('/carousal', function () {
     return view('components/carousal');
 })->name('admin.carousal');
+
+Route::get('/sweetAlert', function () {
+    return view('components/sweetAlert');
+})->name('admin.sweetAlert');

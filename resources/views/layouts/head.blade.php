@@ -35,4 +35,9 @@
     <link href="{{asset('assets/css/components/custom-carousel.css')}}" rel="stylesheet" type="text/css" />
     <!--  END CUSTOM STYLE FILE  -->
 
+    <script src="{{asset('plugins/sweetalerts/promise-polyfill.js')}}"></script>
+    <link href="{{asset('plugins/sweetalerts/sweetalert2.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('plugins/sweetalerts/sweetalert.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('assets/css/components/custom-sweetalert.cs')}}s" rel="stylesheet" type="text/css" />
+
 </head>

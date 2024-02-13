@@ -42,7 +42,7 @@
                         <a href="{{route('admin.carousal')}}">Carousel</a>
                     </li>
                     <li>
-                        <a href="component_sweetalert.html"> Sweet Alerts </a>
+                        <a href="{{route('admin.sweetAlert')}}"> Sweet Alerts </a>
                     </li>
                 </ul>
             </li>

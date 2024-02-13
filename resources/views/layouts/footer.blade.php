@@ -63,3 +63,6 @@
       });
   </script>    
   <!--  END CUSTOM SCRIPT FILE  -->
+
+  <script src="{{asset('plugins/sweetalerts/sweetalert2.min.js')}}"></script>
+  <script src="{{asset('plugins/sweetalerts/custom-sweetalert.js')}}"></script>
