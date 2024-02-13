@@ -56,3 +56,7 @@ Route::get('/modal', function () {
 Route::get('/card', function () {
     return view('components/card');
 })->name('admin.card');
+
+Route::get('/carousal', function () {
+    return view('components/carousal');
+})->name('admin.carousal');

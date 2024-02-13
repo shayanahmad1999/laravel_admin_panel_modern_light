@@ -32,6 +32,7 @@
     <link href="{{asset('assets/css/scrollspyNav.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('assets/css/components/custom-modal.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('assets/css/components/cards/card.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('assets/css/components/custom-carousel.css')}}" rel="stylesheet" type="text/css" />
     <!--  END CUSTOM STYLE FILE  -->
 
 </head>
