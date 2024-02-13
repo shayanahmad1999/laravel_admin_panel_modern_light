@@ -131,7 +131,7 @@
                         <a href="{{route('admin.clipboard')}}"> Clipboard </a>
                     </li>
                     <li>
-                        <a href="form_typeahead.html"> Typeahead </a>
+                        <a href="{{route('admin.typeahead')}}"> Typeahead </a>
                     </li>
                 </ul>
             </li>

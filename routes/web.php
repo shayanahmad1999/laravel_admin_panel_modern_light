@@ -140,3 +140,7 @@ Route::get('mark-down-editor-form', function () {
 Route::get('clipboard-form', function () {
     return view('forms/clipboard');
 })->name('admin.clipboard');
+
+Route::get('typeahead-form', function () {
+    return view('forms/typeahead');
+})->name('admin.typeahead');
