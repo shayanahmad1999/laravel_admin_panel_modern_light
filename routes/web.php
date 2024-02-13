@@ -116,3 +116,7 @@ Route::get('input-mask-form', function () {
 Route::get('select2-form', function () {
     return view('forms/select2');
 })->name('admin.select2');
+
+Route::get('switches-form', function () {
+    return view('forms/switches');
+})->name('admin.switches');

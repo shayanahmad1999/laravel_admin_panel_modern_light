@@ -113,7 +113,7 @@
                         <a href="{{route('admin.select2')}}"> Select2 </a>
                     </li>
                     <li>
-                        <a href="form_switches.html"> Switches </a>
+                        <a href="{{route('admin.switches')}}"> Switches </a>
                     </li>
                     <li>
                         <a href="form_wizard.html"> Wizards </a>
