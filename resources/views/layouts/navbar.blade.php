@@ -72,7 +72,7 @@
                                 <a href="{{route('admin.basicDataTable')}}"> Basic </a>
                             </li>
                             <li>
-                                <a href="table_dt_custom.html"> Custom </a>
+                                <a href="{{route('admin.customDataTable')}}"> Custom </a>
                             </li>
                             <li>
                                 <a href="table_dt_html5.html"> HTML5 Export </a>

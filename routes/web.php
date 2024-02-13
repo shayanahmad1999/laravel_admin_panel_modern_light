@@ -80,3 +80,7 @@ Route::get('/basic-table', function () {
 Route::get('/basic-data-table', function () {
     return view('tables/basicData');
 })->name('admin.basicDataTable');
+
+Route::get('/custom-data-table', function () {
+    return view('tables/customData');
+})->name('admin.customDataTable');
