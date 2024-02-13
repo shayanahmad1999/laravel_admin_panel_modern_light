@@ -98,7 +98,7 @@
                         <a href="{{route('admin.basicForm')}}"> Basic </a>
                     </li>
                     <li>
-                        <a href="form_input_group_basic.html"> Input Group </a>
+                        <a href="{{route('admin.inputGroup')}}"> Input Group </a>
                     </li>
                     <li>
                         <a href="form_layouts.html"> Layouts </a>

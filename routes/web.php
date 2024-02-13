@@ -97,3 +97,7 @@ Route::get('basic-form', function () {
     return view('forms/basic');
 })->name('admin.basicForm');
 
+Route::get('input-group-form', function () {
+    return view('forms/inputGroup');
+})->name('admin.inputGroup');
+
