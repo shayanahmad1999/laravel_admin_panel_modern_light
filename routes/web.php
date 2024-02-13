@@ -128,3 +128,11 @@ Route::get('wizards-form', function () {
 Route::get('file-uploads-form', function () {
     return view('forms/fileUpload');
 })->name('admin.fileUpload');
+
+Route::get('quill-editor-form', function () {
+    return view('forms/quillEditor');
+})->name('admin.quillEditor');
+
+Route::get('mark-down-editor-form', function () {
+    return view('forms/markDownEditor');
+})->name('admin.markDownEditor');

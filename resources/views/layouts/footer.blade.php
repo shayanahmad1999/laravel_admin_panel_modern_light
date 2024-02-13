@@ -270,3 +270,9 @@
         //Second upload
         var secondUpload = new FileUploadWithPreview('mySecondImage')
     </script>
+
+<script src="{{asset('plugins/editors/quill/quill.js')}}"></script>
+<script src="{{asset('plugins/editors/quill/custom-quill.js')}}"></script>
+
+<script src="{{asset('plugins/editors/markdown/simplemde.min.js')}}"></script>
+<script src="{{asset('plugins/editors/markdown/custom-markdown.js')}}"></script>

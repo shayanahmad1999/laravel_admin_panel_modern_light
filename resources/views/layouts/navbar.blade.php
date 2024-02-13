@@ -122,10 +122,10 @@
                         <a href="{{route('admin.fileUpload')}}"> File Upload </a>
                     </li>
                     <li>
-                        <a href="form_quill.html"> Quill Editor </a>
+                        <a href="{{route('admin.quillEditor')}}"> Quill Editor </a>
                     </li>
                     <li>
-                        <a href="form_markdown.html"> Markdown Editor </a>
+                        <a href="{{route('admin.markDownEditor')}}"> Markdown Editor </a>
                     </li>
                     <li>
                         <a href="form_clipboard.html"> Clipboard </a>
