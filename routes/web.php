@@ -72,3 +72,7 @@ Route::get('/notification', function () {
 Route::get('/pricing-table', function () {
     return view('components/pricingTable');
 })->name('admin.pricingTable');
+
+Route::get('/basic-table', function () {
+    return view('tables/basic');
+})->name('admin.basicTable');
