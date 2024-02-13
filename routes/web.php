@@ -101,3 +101,7 @@ Route::get('input-group-form', function () {
     return view('forms/inputGroup');
 })->name('admin.inputGroup');
 
+Route::get('layouts-form', function () {
+    return view('forms/layouts');
+})->name('admin.layouts');
+
